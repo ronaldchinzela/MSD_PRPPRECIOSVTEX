@@ -1,0 +1,18 @@
+{"Parameters": {
+ "loadBalancerPathPatterns": "/msdprppreciosvtex/v1/*",
+ "healthCheckPath": "/msdprppreciosvtex/v1/status",
+ "targetGroupProtocol": "HTTP",
+ "containerPortDefault": "10443/tcp",
+ "envVar1": "spring.profiles.active||dev",
+ "cpu": "512",
+ "memory": "1024",
+ "serviceDiscovery": "true",
+ "serviceTaskDesiredCount": "1",
+ "scallingMaximumTaskCount": "10",
+ "cpuAutoScalling": "true",
+ "cpuLimitTarget": "60",
+ "ramAutoScalling": "false",
+ "ramLimitTarget": "80",
+ "perRequestAutoScalling": "false",
+ "requestLimitTarget": "80"
+}}

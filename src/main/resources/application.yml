@@ -1,0 +1,26 @@
+info:
+  app:
+    encoding: '@project.build.sourceEncoding@'
+    java:
+      version: '@java.version@'
+    name: '@project.name@'
+    response: https://baz-developer.bancoazteca.com.mx/info#
+    version: '@project.version@'
+  api:
+    name: '@project.name@'
+    id: 100
+logging:
+  level:
+    org:
+      springframework: 'off'
+server:
+  port: 10443
+spring:
+  config:
+    activate:
+      on-profile: dev, qa, default
+  main:
+    banner-mode: 'off'
+  mvc:
+    servlet:
+      path: /@project.name@/v1
