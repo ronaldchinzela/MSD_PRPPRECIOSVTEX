@@ -15,72 +15,79 @@ import com.gruposalinas.response.model.ResponseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
 @RequestMapping("/productos")
 public class PreciosController {
 
-    @Value("${info.app.version}")
-    private String appVersion;
+  private final String appVersion;
+  private final Util util;
+  private final PreciosService preciosService;
+  private final Logger logger;
 
-    @Autowired
-    private Util util;
+  @Autowired
+  public PreciosController(
+    @Value("${info.app.version}") String appVersion,
+    Util util,
+    PreciosService preciosService,
+    Logger logger) {
+    this.appVersion = appVersion;
+    this.util = util;
+    this.preciosService = preciosService;
+    this.logger = logger;
+  }
 
-    @Autowired
-    private PreciosService preciosService;
+  ResponseService handleRequest(Object requestObject, String operation) throws ExceptionAPI, Exceptions {
+    DatosKibana datosKibana = new DatosKibana();
+    try {
+      datosKibana.setDatosPeticion(requestObject);
+      Object resultant = null;
 
-    @Autowired
-    private Logger logger;
+      if ("actualizaProductos".equals(operation)) {
+        resultant = preciosService.actualizaProductos((RequestPrecios) requestObject);
+      }
+      else if ("log".equals(operation)) {
+        resultant = preciosService.log((RequestLog) requestObject);
+      }
+      else {
+        throw new IllegalArgumentException("Operación no válida: " + operation);
+      }
 
-    @PostMapping("/precios")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseService actualizaProductos(@RequestBody RequestPrecios request) throws Exceptions {
-        DatosKibana datosKibana = new DatosKibana();
-        try {
-            datosKibana.setDatosPeticion(Constantes.CONSULTA_ALL);
-            Object resultant = preciosService.actualizaProductos(request);
+      datosKibana.setRespuestaObtenida(requestObject);
 
-            datosKibana.setRespuestaObtenida(request);
+      logger.trace(this.getClass(), Nivel.INFORMATIVO, Constantes.SUCCESS_OPERATION, datosKibana);
 
-            logger.trace(this.getClass(), Nivel.INFORMATIVO, Constantes.SUCCESS_OPERATION, datosKibana);
-
-            return new ResponseService(HttpStatus.OK, util.getCodigo(), Constantes.SUCCESS_OPERATION, util.getFolio(),
-                    resultant);
-        } catch (ExceptionAPI e) {
-            datosKibana.setRespuestaObtenida(e.getMessage());
-            logger.trace(this.getClass(), Nivel.ERROR, Constantes.SUCCESS_OPERATION, datosKibana);
-            throw e;
-        } catch (Exception ex) {
-            datosKibana.setRespuestaObtenida(ex.getMessage());
-            logger.trace(this.getClass(), Nivel.ERROR, Constantes.SUCCESS_OPERATION, datosKibana);
-
-            throw new Exceptions(ex);
-        }
+      return new ResponseService(HttpStatus.OK, util.getCodigo(), Constantes.SUCCESS_OPERATION, util.getFolio(),
+        resultant);
     }
-
-    @PostMapping("/log")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseService log(@RequestBody RequestLog request) throws Exceptions {
-        DatosKibana datosKibana = new DatosKibana();
-        try {
-            datosKibana.setDatosPeticion(request);
-            Object resultant = preciosService.log(request);
-
-            logger.trace(this.getClass(), Nivel.INFORMATIVO, Constantes.SUCCESS_OPERATION, datosKibana);
-
-            return new ResponseService(HttpStatus.OK, util.getCodigo(), Constantes.SUCCESS_OPERATION, util.getFolio(),
-                    resultant);
-        } catch (ExceptionAPI e) {
-            datosKibana.setRespuestaObtenida(e.getMessage());
-            logger.trace(this.getClass(), Nivel.ERROR, Constantes.SUCCESS_OPERATION, datosKibana);
-            throw e;
-        } catch (Exception ex) {
-            datosKibana.setRespuestaObtenida(ex.getMessage());
-            logger.trace(this.getClass(), Nivel.ERROR, Constantes.SUCCESS_OPERATION, datosKibana);
-
-            throw new Exceptions(ex);
-        }
+    catch (ExceptionAPI e) {
+      datosKibana.setRespuestaObtenida(e.getMessage());
+      logger.trace(this.getClass(), Nivel.ERROR, Constantes.SUCCESS_OPERATION, datosKibana);
+      throw e;
     }
+    catch (Exception ex) {
+      datosKibana.setRespuestaObtenida(ex.getMessage());
+      logger.trace(this.getClass(), Nivel.ERROR, Constantes.SUCCESS_OPERATION, datosKibana);
+      throw new Exceptions(ex);
+    }
+  }
+
+  @PostMapping("/precios")
+  @ResponseStatus(HttpStatus.OK)
+  public ResponseService actualizaProductos(@RequestBody RequestPrecios request) throws Exceptions {
+    return handleRequest(request, "actualizaProductos");
+  }
+
+  @PostMapping("/log")
+  @ResponseStatus(HttpStatus.OK)
+  public ResponseService log(@RequestBody RequestLog request) throws Exceptions {
+    return handleRequest(request, "log");
+  }
+
 }

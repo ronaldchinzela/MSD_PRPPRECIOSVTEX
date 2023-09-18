@@ -1,0 +1,6 @@
+2023-09-18 00:55:26,226-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m45s135ms).","metodo":".","linea": } 
+2023-09-18 02:18:22,576-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m56s350ms).","metodo":".","linea": } 
+2023-09-18 03:22:54,821-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m32s245ms).","metodo":".","linea": } 
+2023-09-18 04:31:38,383-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m43s562ms).","metodo":".","linea": } 
+2023-09-18 05:54:36,406-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m58s22ms).","metodo":".","linea": } 
+2023-09-18 06:31:54,807-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m18s402ms).","metodo":".","linea": } 

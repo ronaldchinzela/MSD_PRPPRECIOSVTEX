@@ -1,0 +1,15 @@
+com/gruposalinas/msdprppreciosvtex/common/ProcesosCommonTest.class
+com/gruposalinas/msdprppreciosvtex/common/OracleSqlArrayValueTest.class
+com/gruposalinas/msdprppreciosvtex/configuration/ApplicationSetupTest.class
+com/gruposalinas/msdprppreciosvtex/common/ExceptionsTest.class
+com/gruposalinas/msdprppreciosvtex/model/request/RequestLogTest.class
+com/gruposalinas/msdprppreciosvtex/dao/PreciosDaoImplTest.class
+com/gruposalinas/msdprppreciosvtex/model/request/ItemTest.class
+com/gruposalinas/msdprppreciosvtex/common/UtilTest.class
+com/gruposalinas/msdprppreciosvtex/model/response/ResponseProductosTest.class
+com/gruposalinas/msdprppreciosvtex/controller/PreciosControllerTest.class
+com/gruposalinas/msdprppreciosvtex/MsdApplicationTest.class
+com/gruposalinas/msdprppreciosvtex/controller/StatusControllerTest.class
+com/gruposalinas/msdprppreciosvtex/model/request/RequestPreciosTest.class
+com/gruposalinas/msdprppreciosvtex/service/StatusServicesTest.class
+com/gruposalinas/msdprppreciosvtex/service/PreciosServiceImplTest.class

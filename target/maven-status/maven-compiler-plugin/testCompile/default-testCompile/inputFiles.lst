@@ -1,0 +1,15 @@
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/model/request/RequestLogTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/common/UtilTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/controller/StatusControllerTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/model/request/RequestPreciosTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/model/request/ItemTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/common/OracleSqlArrayValueTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/model/response/ResponseProductosTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/controller/PreciosControllerTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/dao/PreciosDaoImplTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/MsdApplicationTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/service/PreciosServiceImplTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/common/ProcesosCommonTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/configuration/ApplicationSetupTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/service/StatusServicesTest.java
+/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/src/test/java/com/gruposalinas/msdprppreciosvtex/common/ExceptionsTest.java

@@ -8,4 +8,8 @@ import java.util.List;
 public class RequestLog {
 
   private List<Item> items;
+
+  public RequestLog(List<Item> items) {
+    this.items = items;
+  }
 }

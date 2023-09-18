@@ -1,0 +1,548 @@
+2023-09-12 04:21:09,651-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:21:10,669-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 04:21:22,389-[INFO ] {"id_traza":"","mensaje":"Starting MsdApplication using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 76813 (/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/target/classes started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 04:21:22,390-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 04:21:22,979-[INFO ] {"id_traza":"","mensaje":"Starting service [Tomcat]","metodo":".","linea": } 
+2023-09-12 04:21:22,979-[INFO ] {"id_traza":"","mensaje":"Starting Servlet engine: [Apache Tomcat/9.0.75]","metodo":".","linea": } 
+2023-09-12 04:21:23,047-[INFO ] {"id_traza":"","mensaje":"Initializing Spring embedded WebApplicationContext","metodo":".","linea": } 
+2023-09-12 04:21:23,269-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":".","linea": } 
+2023-09-12 04:21:24,560-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":".","linea": } 
+2023-09-12 04:21:24,811-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$9ef963f9.init","linea":48 } 
+2023-09-12 04:21:25,131-[INFO ] {"id_traza":"","mensaje":"Started MsdApplication in 8.003 seconds (JVM running for 8.218)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$9ef963f9.init","linea":48 } 
+2023-09-12 04:34:01,138-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 81428 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 04:34:01,139-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 04:34:02,894-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:04,605-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.739 seconds (JVM running for 9.497)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:05,181-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 81428 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:05,181-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:05,462-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:12,010-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:12,323-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:12,697-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.548 seconds (JVM running for 17.589)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:12,726-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 81428 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:12,726-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:12,883-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:13,906-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:14,105-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:14,390-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.685 seconds (JVM running for 19.282)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:14,568-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 81428 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:14,568-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:14,679-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:14,983-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.433 seconds (JVM running for 19.875)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8782ef54.init","linea":48 } 
+2023-09-12 04:34:15,024-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:34:15,429-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 04:34:15,431-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:34:16,028-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 04:46:04,212-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 86363 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 04:46:04,213-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 04:46:06,005-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:07,596-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.681 seconds (JVM running for 9.459)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:08,194-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 86363 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:08,194-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:08,504-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:14,956-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:15,277-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:15,754-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.591 seconds (JVM running for 17.616)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:15,793-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 86363 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:15,794-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:15,959-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:17,008-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:17,206-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:17,591-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.825 seconds (JVM running for 19.453)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:17,793-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 86363 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:17,794-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:17,917-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:18,258-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.487 seconds (JVM running for 20.12)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$72400a6f.init","linea":54 } 
+2023-09-12 04:46:18,292-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:46:18,939-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 04:46:18,943-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:46:19,242-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 04:53:39,551-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 87963 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 04:53:39,557-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 04:53:41,471-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:43,162-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.887 seconds (JVM running for 9.603)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:48,752-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 87963 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:48,752-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:48,998-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:50,472-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:50,791-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:51,152-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.467 seconds (JVM running for 17.593)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:51,178-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 87963 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:51,179-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:51,331-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:52,371-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:52,570-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:52,881-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.722 seconds (JVM running for 19.322)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:53,058-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 87963 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:53,058-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:53,163-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:53,441-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.401 seconds (JVM running for 19.882)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d77fcc8c.init","linea":50 } 
+2023-09-12 04:53:53,473-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:53:59,428-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 04:53:59,429-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 04:54:00,738-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:03:02,925-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 91919 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:03:02,926-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:03:04,890-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:06,394-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.772 seconds (JVM running for 9.53)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:06,960-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 91919 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:06,960-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:07,251-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:13,671-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:14,005-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:14,406-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.48 seconds (JVM running for 17.542)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:14,444-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 91919 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:14,445-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:14,592-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:15,621-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:15,818-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:16,126-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.711 seconds (JVM running for 19.262)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:16,304-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 91919 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:16,304-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:16,414-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:16,734-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.448 seconds (JVM running for 19.869)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$1c24c9ae.init","linea":50 } 
+2023-09-12 05:03:16,768-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:03:17,656-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:03:17,661-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:03:23,683-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:09:28,969-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 93738 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:09:28,970-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:09:30,667-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:32,344-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.659 seconds (JVM running for 9.403)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:32,904-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 93738 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:32,904-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:33,195-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:39,724-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:40,050-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:40,453-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.586 seconds (JVM running for 17.512)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:40,488-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 93738 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:40,489-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:40,654-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:41,690-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:41,887-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:42,188-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.726 seconds (JVM running for 19.247)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:42,378-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 93738 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:42,378-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:42,490-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:42,794-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.436 seconds (JVM running for 19.853)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$37563019.init","linea":50 } 
+2023-09-12 05:09:42,827-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:09:43,682-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:09:43,685-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:09:49,684-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:23:09,050-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 98583 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:23:09,051-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:23:11,030-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:12,475-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.687 seconds (JVM running for 9.421)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:13,030-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 98583 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:13,031-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:13,341-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:19,737-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:20,035-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:20,423-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.425 seconds (JVM running for 17.37)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:20,453-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 98583 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:20,453-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:20,609-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:21,640-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:21,837-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:22,137-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.705 seconds (JVM running for 19.083)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:22,333-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 98583 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:22,333-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:22,445-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:22,736-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.422 seconds (JVM running for 19.682)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$90e16674.init","linea":50 } 
+2023-09-12 05:23:22,769-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:23:23,709-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:23:23,711-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:23:24,671-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:29:42,953-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 627 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:29:42,953-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:29:44,906-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:46,369-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.671 seconds (JVM running for 9.412)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:46,918-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 627 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:46,918-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:47,201-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:53,620-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:53,933-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:54,316-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.429 seconds (JVM running for 17.359)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:54,345-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 627 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:54,346-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:54,499-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:55,665-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:55,863-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:56,200-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.876 seconds (JVM running for 19.243)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:56,380-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 627 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:56,380-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:56,499-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:56,850-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.488 seconds (JVM running for 19.893)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$128ba052.init","linea":50 } 
+2023-09-12 05:29:56,888-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:29:57,669-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:29:57,670-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:30:03,684-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:35:30,790-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3393 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:35:30,791-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:35:32,533-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:34,081-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.575 seconds (JVM running for 9.333)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:34,642-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3393 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:34,642-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:34,935-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:41,284-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:41,607-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:41,996-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.384 seconds (JVM running for 17.248)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:42,024-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3393 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:42,024-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:42,179-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:43,209-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:43,406-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:43,703-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.699 seconds (JVM running for 18.955)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:43,901-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3393 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:43,902-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:44,021-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:44,313-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.433 seconds (JVM running for 19.566)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$8b78d25b.init","linea":50 } 
+2023-09-12 05:35:44,349-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:35:45,269-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:35:45,273-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:35:51,245-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:43:36,507-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 5592 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:43:36,508-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:43:38,312-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:39,760-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.599 seconds (JVM running for 9.362)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:40,303-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 5592 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:40,303-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:40,588-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:46,994-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:47,308-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:47,713-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.44 seconds (JVM running for 17.315)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:47,741-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 5592 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:47,741-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:47,895-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:48,932-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:49,130-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:49,441-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.72 seconds (JVM running for 19.043)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:49,623-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 5592 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:49,624-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:49,746-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:50,042-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.439 seconds (JVM running for 19.644)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$81b56c7.init","linea":50 } 
+2023-09-12 05:43:50,076-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:43:50,956-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:43:50,960-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:43:56,997-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:52:09,772-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 7842 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:52:09,773-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:52:11,378-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:12,710-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.219 seconds (JVM running for 8.986)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:13,245-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 7842 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:13,245-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:13,515-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:19,857-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:20,193-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:20,582-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.367 seconds (JVM running for 16.858)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:20,610-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 7842 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:20,610-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:20,774-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:21,807-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,004-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,293-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.704 seconds (JVM running for 18.569)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,498-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 7842 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,498-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,635-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,922-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.445 seconds (JVM running for 19.198)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4733e9f9.init","linea":50 } 
+2023-09-12 05:52:22,958-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:52:23,819-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:52:23,825-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:52:24,132-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:57:45,403-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 10468 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 05:57:45,405-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 05:57:47,083-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:48,553-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.444 seconds (JVM running for 9.189)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:49,112-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 10468 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:49,112-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:49,388-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:55,722-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:56,079-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:56,473-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.392 seconds (JVM running for 17.109)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:56,510-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 10468 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:56,510-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:56,658-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:57,698-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:57,895-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:58,199-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.717 seconds (JVM running for 18.835)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:58,403-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 10468 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:58,404-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:58,518-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:58,817-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.44 seconds (JVM running for 19.453)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$664d40ae.init","linea":50 } 
+2023-09-12 05:57:58,854-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:57:59,691-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 05:57:59,693-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 05:58:00,014-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:03:32,739-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 12295 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 06:03:32,741-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 06:03:34,404-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:35,914-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.452 seconds (JVM running for 9.222)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:36,474-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 12295 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:36,475-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:36,752-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:43,143-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:43,478-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:43,852-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.407 seconds (JVM running for 17.16)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:43,886-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 12295 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:43,886-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:44,045-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:45,081-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:45,279-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:45,597-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.735 seconds (JVM running for 18.905)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:45,794-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 12295 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:45,794-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:45,916-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:46,209-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.435 seconds (JVM running for 19.516)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 06:03:46,242-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:03:47,187-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:03:47,191-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:03:53,129-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:16:49,331-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 16807 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 06:16:49,332-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 06:16:51,061-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:16:52,428-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.449 seconds (JVM running for 9.387)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:16:53,006-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 16807 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:16:53,006-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:16:53,318-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:16:59,677-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:00,015-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:00,421-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.458 seconds (JVM running for 17.383)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:00,451-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 16807 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:00,451-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:00,602-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:01,693-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:01,892-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:02,232-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.803 seconds (JVM running for 19.193)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:02,474-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 16807 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:02,474-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:02,601-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:02,955-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.506 seconds (JVM running for 19.917)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:17:02,997-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:17:03,401-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:17:03,403-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:17:03,853-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:20:36,162-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18157 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 06:20:36,163-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 06:20:38,019-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:39,477-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.658 seconds (JVM running for 9.49)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:40,019-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18157 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:40,020-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:40,311-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:46,672-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:46,993-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:47,384-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.394 seconds (JVM running for 17.397)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:47,415-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18157 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:47,415-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:47,594-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:48,662-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:48,862-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:49,202-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.809 seconds (JVM running for 19.215)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:49,411-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18157 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:49,411-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:49,525-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:49,827-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.437 seconds (JVM running for 19.84)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$2a5cb3f.init","linea":50 } 
+2023-09-12 06:20:49,863-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:20:50,653-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:20:50,654-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:20:50,965-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:42:42,988-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:42:44,825-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:42:56,983-[INFO ] {"id_traza":"","mensaje":"Starting MsdApplication using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 26536 (/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/target/classes started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 06:42:56,984-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 06:42:57,689-[INFO ] {"id_traza":"","mensaje":"Starting service [Tomcat]","metodo":".","linea": } 
+2023-09-12 06:42:57,690-[INFO ] {"id_traza":"","mensaje":"Starting Servlet engine: [Apache Tomcat/9.0.75]","metodo":".","linea": } 
+2023-09-12 06:42:57,762-[INFO ] {"id_traza":"","mensaje":"Initializing Spring embedded WebApplicationContext","metodo":".","linea": } 
+2023-09-12 06:42:57,966-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":".","linea": } 
+2023-09-12 06:42:59,426-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":".","linea": } 
+2023-09-12 06:42:59,687-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$918b47d7.init","linea":50 } 
+2023-09-12 06:42:59,990-[INFO ] {"id_traza":"","mensaje":"Started MsdApplication in 8.271 seconds (JVM running for 8.469)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$918b47d7.init","linea":50 } 
+2023-09-12 06:46:07,405-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 06:46:08,414-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 06:46:20,169-[INFO ] {"id_traza":"","mensaje":"Starting MsdApplication using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 27253 (/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/target/classes started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 06:46:20,170-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 06:46:20,821-[INFO ] {"id_traza":"","mensaje":"Starting service [Tomcat]","metodo":".","linea": } 
+2023-09-12 06:46:20,821-[INFO ] {"id_traza":"","mensaje":"Starting Servlet engine: [Apache Tomcat/9.0.75]","metodo":".","linea": } 
+2023-09-12 06:46:20,885-[INFO ] {"id_traza":"","mensaje":"Initializing Spring embedded WebApplicationContext","metodo":".","linea": } 
+2023-09-12 06:46:21,112-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":".","linea": } 
+2023-09-12 06:46:22,372-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":".","linea": } 
+2023-09-12 06:46:22,630-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$9ef963f9.init","linea":50 } 
+2023-09-12 06:46:22,939-[INFO ] {"id_traza":"","mensaje":"Started MsdApplication in 8.044 seconds (JVM running for 8.212)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$9ef963f9.init","linea":50 } 
+2023-09-12 07:05:20,596-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 07:05:22,396-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 07:05:34,498-[INFO ] {"id_traza":"","mensaje":"Starting MsdApplication using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 33482 (/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/target/classes started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 07:05:34,499-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 07:05:35,074-[INFO ] {"id_traza":"","mensaje":"Starting service [Tomcat]","metodo":".","linea": } 
+2023-09-12 07:05:35,074-[INFO ] {"id_traza":"","mensaje":"Starting Servlet engine: [Apache Tomcat/9.0.75]","metodo":".","linea": } 
+2023-09-12 07:05:35,132-[INFO ] {"id_traza":"","mensaje":"Initializing Spring embedded WebApplicationContext","metodo":".","linea": } 
+2023-09-12 07:05:35,319-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":".","linea": } 
+2023-09-12 07:05:36,571-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":".","linea": } 
+2023-09-12 07:05:36,833-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$9ef963f9.init","linea":50 } 
+2023-09-12 07:05:37,129-[INFO ] {"id_traza":"","mensaje":"Started MsdApplication in 7.876 seconds (JVM running for 8.057)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$9ef963f9.init","linea":50 } 
+2023-09-12 07:30:00,901-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 07:30:03,940-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 07:30:15,854-[INFO ] {"id_traza":"","mensaje":"Starting MsdApplication using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 42110 (/Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX/target/classes started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 07:30:15,855-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 07:30:16,414-[INFO ] {"id_traza":"","mensaje":"Starting service [Tomcat]","metodo":".","linea": } 
+2023-09-12 07:30:16,414-[INFO ] {"id_traza":"","mensaje":"Starting Servlet engine: [Apache Tomcat/9.0.75]","metodo":".","linea": } 
+2023-09-12 07:30:16,480-[INFO ] {"id_traza":"","mensaje":"Initializing Spring embedded WebApplicationContext","metodo":".","linea": } 
+2023-09-12 07:30:16,661-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":".","linea": } 
+2023-09-12 07:30:17,919-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":".","linea": } 
+2023-09-12 07:30:18,194-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$b5056edd.init","linea":50 } 
+2023-09-12 07:30:18,496-[INFO ] {"id_traza":"","mensaje":"Started MsdApplication in 7.947 seconds (JVM running for 8.153)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$b5056edd.init","linea":50 } 
+2023-09-12 07:31:48,474-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 42429 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 07:31:48,475-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 07:31:50,513-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:31:51,977-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.813 seconds (JVM running for 9.764)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:31:57,654-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 42429 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:31:57,654-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:31:57,979-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:31:59,479-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:31:59,806-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:00,165-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.578 seconds (JVM running for 17.952)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:00,198-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 42429 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:00,198-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:00,355-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:01,481-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:01,680-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:01,966-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.792 seconds (JVM running for 19.754)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:02,170-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 42429 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:02,170-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:02,280-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:02,569-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.419 seconds (JVM running for 20.356)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$d9498e14.init","linea":50 } 
+2023-09-12 07:32:02,600-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 07:32:03,000-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 07:32:03,005-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 07:32:08,659-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 07:47:53,359-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 48190 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 07:47:53,360-[INFO ] {"id_traza":"","mensaje":"No active profile set, falling back to 1 default profile: "default"","metodo":".","linea": } 
+2023-09-12 07:47:54,484-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$19010a8e.init","linea":50 } 
+2023-09-12 07:47:55,349-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 7.237 seconds (JVM running for 7.802)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$19010a8e.init","linea":50 } 
+2023-09-12 07:48:12,887-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 48253 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 07:48:12,888-[INFO ] {"id_traza":"","mensaje":"No active profile set, falling back to 1 default profile: "default"","metodo":".","linea": } 
+2023-09-12 07:48:13,912-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4658dc6b.init","linea":50 } 
+2023-09-12 07:48:14,742-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 7.085 seconds (JVM running for 7.589)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$4658dc6b.init","linea":50 } 
+2023-09-12 07:48:27,893-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 48300 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 07:48:27,894-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 07:48:29,921-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:31,347-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.751 seconds (JVM running for 9.478)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:31,893-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 48300 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:31,893-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:32,177-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:38,587-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:38,913-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:39,289-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.428 seconds (JVM running for 17.422)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:39,318-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 48300 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:39,318-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:39,514-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:40,559-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:40,757-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:41,074-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.778 seconds (JVM running for 19.208)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:41,259-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 48300 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:41,259-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:41,365-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:41,658-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.417 seconds (JVM running for 19.792)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$e95497d8.init","linea":50 } 
+2023-09-12 07:48:41,692-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 07:48:42,609-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 07:48:42,616-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 07:48:48,588-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 08:02:01,313-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 53023 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 08:02:01,314-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 08:02:03,099-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:04,647-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.621 seconds (JVM running for 9.374)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:05,229-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 53023 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:05,229-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:05,519-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:11,876-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:12,194-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:12,618-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.422 seconds (JVM running for 17.346)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:12,650-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 53023 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:12,650-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:12,838-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:13,870-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:14,068-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:14,393-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.766 seconds (JVM running for 19.12)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:14,590-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 53023 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:14,590-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:14,706-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:15,026-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.457 seconds (JVM running for 19.753)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$70faed5c.init","linea":50 } 
+2023-09-12 08:02:15,065-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 08:02:15,869-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 08:02:15,871-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 08:02:21,931-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 09:20:58,317-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3422 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 09:20:58,318-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 09:21:00,001-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:01,355-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.293 seconds (JVM running for 9.068)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:01,898-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3422 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:01,898-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:02,164-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:08,631-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:08,958-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:09,411-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.544 seconds (JVM running for 17.125)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:09,440-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3422 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:09,440-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:09,614-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:10,647-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:10,844-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:11,192-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.773 seconds (JVM running for 18.906)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:11,409-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 3422 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:11,410-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:11,521-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:11,850-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.461 seconds (JVM running for 19.563)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$6faab4ba.init","linea":50 } 
+2023-09-12 09:21:11,885-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 09:21:12,587-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 09:21:12,592-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 09:21:12,889-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 09:29:09,146-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 6969 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 09:29:09,148-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 09:29:10,909-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:12,449-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.604 seconds (JVM running for 4.372)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:13,017-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 6969 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:13,017-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:13,292-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:14,826-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:15,135-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:15,584-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 2.596 seconds (JVM running for 7.507)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:15,614-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 6969 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:15,614-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:15,784-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:16,870-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:17,067-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:17,420-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.827 seconds (JVM running for 9.343)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:17,627-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 6969 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:17,627-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:17,760-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:18,115-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.507 seconds (JVM running for 10.037)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$86f00a37.init","linea":50 } 
+2023-09-12 09:29:18,149-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 09:29:18,862-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 09:29:18,863-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 09:29:19,158-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 09:39:27,017-[INFO ] {"id_traza":"","mensaje":"Starting ApplicationSetupTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18631 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":".","linea": } 
+2023-09-12 09:39:27,019-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":".","linea": } 
+2023-09-12 09:39:28,785-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:30,548-[INFO ] {"id_traza":"","mensaje":"Started ApplicationSetupTest in 3.834 seconds (JVM running for 9.639)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:36,161-[INFO ] {"id_traza":"","mensaje":"Starting StatusControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18631 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:36,161-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:36,438-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:37,770-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:38,095-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:38,501-[INFO ] {"id_traza":"","mensaje":"Started StatusControllerTest in 7.383 seconds (JVM running for 17.592)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:38,528-[INFO ] {"id_traza":"","mensaje":"Starting PreciosControllerTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18631 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:38,528-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:38,696-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Starting...","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:39,747-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Start completed.","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:39,946-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:X","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:40,239-[INFO ] {"id_traza":"","mensaje":"Started PreciosControllerTest in 1.73 seconds (JVM running for 19.33)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:40,453-[INFO ] {"id_traza":"","mensaje":"Starting StatusServicesTest using Java 17.0.8.1 on GSQ359KQXD01MLE with PID 18631 (started by whiz in /Users/whiz/Documents/Intellijproyecto/EKT-ECOM-CODECOMMIT-MARKETPLACE-MSDPRPPRECIOSVTEX)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:40,453-[INFO ] {"id_traza":"","mensaje":"The following 1 profile is active: "dev"","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:40,572-[INFO ] {"id_traza":"","mensaje":"****************** Configurando msdprppreciosvtex 0.0.1 ****************** Conexion  DataBase:null","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:40,872-[INFO ] {"id_traza":"","mensaje":"Started StatusServicesTest in 0.44 seconds (JVM running for 19.963)","metodo":"ApplicationSetup$$EnhancerBySpringCGLIB$$943795e1.init","linea":50 } 
+2023-09-12 09:39:40,914-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 09:39:46,842-[INFO ] {"id_traza":"","mensaje":"HikariPool-1 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 09:39:46,844-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown initiated...","metodo":".","linea": } 
+2023-09-12 09:39:47,779-[INFO ] {"id_traza":"","mensaje":"HikariPool-2 - Shutdown completed.","metodo":".","linea": } 
+2023-09-12 22:43:58,032-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s66ms).","metodo":".","linea": } 
+2023-09-12 23:00:13,479-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m45s421ms).","metodo":".","linea": } 
+2023-09-12 23:19:05,497-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m22s5ms).","metodo":".","linea": } 
+2023-09-12 23:35:03,533-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m58s37ms).","metodo":".","linea": } 
+2023-09-12 23:52:10,522-[WARN ] {"id_traza":"","mensaje":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m36s968ms).","metodo":".","linea": } 

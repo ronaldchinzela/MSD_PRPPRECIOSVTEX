@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PreciosDaoImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">msdprppreciosvtex</a> &gt; <a href="index.source.html" class="el_package">com.gruposalinas.msdprppreciosvtex.dao</a> &gt; <span class="el_source">PreciosDaoImpl.java</span></div><h1>PreciosDaoImpl.java</h1><pre class="source lang-java linenums">package com.gruposalinas.msdprppreciosvtex.dao;
+
+
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.gruposalinas.log.common.Estatus;
+import com.gruposalinas.log.common.Proceso;
+import com.gruposalinas.log.dto.InfoProceso;
+import com.gruposalinas.log.service.Logger;
+import com.gruposalinas.msdprppreciosvtex.common.Constantes;
+import com.gruposalinas.msdprppreciosvtex.common.Exceptions;
+import com.gruposalinas.msdprppreciosvtex.common.ProcesosCommon;
+import com.gruposalinas.msdprppreciosvtex.model.request.RequestLog;
+import com.gruposalinas.msdprppreciosvtex.model.request.RequestPrecios;
+import com.gruposalinas.msdprppreciosvtex.model.response.ResponseProductos;
+import oracle.jdbc.OracleTypes;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.SqlOutParameter;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.core.simple.SimpleJdbcCall;
+import org.springframework.stereotype.Repository;
+
+import java.sql.Types;
+import java.util.List;
+import java.util.Map;
+
+@Repository
+public class PreciosDaoImpl implements PreciosDao {
+  private final JdbcTemplate jdbcTemplate;
+  private final Logger logger;
+
+  @Autowired
+<span class="fc" id="L35">  public PreciosDaoImpl(JdbcTemplate jdbcTemplate, Logger logger) {</span>
+<span class="fc" id="L36">    this.jdbcTemplate = jdbcTemplate;</span>
+<span class="fc" id="L37">    this.logger = logger;</span>
+<span class="fc" id="L38">  }</span>
+
+  public ResponseProductos actualizaProductos(RequestPrecios request) throws Exceptions {
+<span class="fc" id="L41">    InfoProceso infoProceso = new InfoProceso();</span>
+
+    try {
+<span class="fc" id="L44">      infoProceso.setProceso(&quot;PreciosDaoImpl.actualizaProductos&quot;);</span>
+<span class="fc" id="L45">      infoProceso.setRequest(request);</span>
+<span class="fc" id="L46">      infoProceso.setEnable(Proceso.INICIO);</span>
+
+<span class="fc" id="L48">      logger.debug(infoProceso);</span>
+
+<span class="fc" id="L50">      SimpleJdbcCall simpleJdbcCall = new SimpleJdbcCall(jdbcTemplate)</span>
+<span class="fc" id="L51">        .withSchemaName(Constantes.SCHEMA)</span>
+<span class="fc" id="L52">        .withCatalogName(ProcesosCommon.MODIFICA_PRECIOS.getCatalogo())</span>
+<span class="fc" id="L53">        .withProcedureName(ProcesosCommon.MODIFICA_PRECIOS.getFn())</span>
+<span class="fc" id="L54">        .declareParameters(</span>
+          new SqlOutParameter(Constantes.PA_FECHAS, OracleTypes.NVARCHAR),
+          new SqlOutParameter(Constantes.PA_COERRMSG, OracleTypes.NVARCHAR),
+          new SqlOutParameter(Constantes.PA_IOCERR, OracleTypes.NUMBER),
+          new SqlOutParameter(Constantes.PA_TAB_DATA, OracleTypes.REF_CURSOR));
+<span class="fc" id="L59">      MapSqlParameterSource params = new MapSqlParameterSource();</span>
+<span class="fc" id="L60">      params.addValue(Constantes.PA_FECHAS, request.getFechaHoraEjecucion());</span>
+<span class="fc" id="L61">      Map&lt;String, Object&gt; responseDB = simpleJdbcCall.execute(params);</span>
+
+<span class="fc" id="L63">      infoProceso.setEnable(Proceso.FIN);</span>
+<span class="fc" id="L64">      infoProceso.setStatus(Estatus.SUCCESS);</span>
+<span class="fc" id="L65">      infoProceso.setResponse(responseDB);</span>
+
+<span class="fc" id="L67">      List&lt;?&gt; itemsList = (List&lt;?&gt;) responseDB.get(Constantes.PA_TAB_DATA);</span>
+
+<span class="fc" id="L69">      List&lt;Long&gt; items = itemsList.stream().map((Object i) -&gt; {</span>
+<span class="fc" id="L70">        String jsonItem = new Gson().toJson(i);</span>
+<span class="fc" id="L71">        JsonObject jsonObject = new Gson().fromJson(jsonItem, JsonObject.class);</span>
+
+<span class="fc" id="L73">        return jsonObject.get(Constantes.SKU_ELEMENT_SP).getAsLong();</span>
+<span class="fc" id="L74">      }).toList();</span>
+
+<span class="fc" id="L76">      ResponseProductos response = new ResponseProductos(items);</span>
+<span class="fc" id="L77">      response.setSkus(items);</span>
+
+<span class="fc" id="L79">      logger.debug(infoProceso);</span>
+
+<span class="fc" id="L81">      return response;</span>
+    }
+<span class="fc" id="L83">    catch (Exception e) {</span>
+<span class="fc" id="L84">      infoProceso.setStatus(Estatus.ERROR);</span>
+<span class="fc" id="L85">      infoProceso.setResponse(e);</span>
+
+<span class="fc" id="L87">      logger.debug(infoProceso);</span>
+
+<span class="fc" id="L89">      throw new Exceptions(e);</span>
+
+    }
+  }
+
+  public Map&lt;String, Object&gt; log(RequestLog request) throws Exceptions {
+<span class="fc" id="L95">    InfoProceso infoProceso = new InfoProceso();</span>
+
+    try {
+
+<span class="fc" id="L99">      infoProceso.setProceso(&quot;PreciosDaoImpl.log&quot;);</span>
+<span class="fc" id="L100">      infoProceso.setRequest(request);</span>
+<span class="fc" id="L101">      infoProceso.setEnable(Proceso.INICIO);</span>
+
+<span class="fc" id="L103">      logger.debug(infoProceso);</span>
+
+<span class="fc" id="L105">      SimpleJdbcCall simpleJdbcCall = new SimpleJdbcCall(jdbcTemplate)</span>
+<span class="fc" id="L106">        .withSchemaName(Constantes.SCHEMA)</span>
+<span class="fc" id="L107">        .withCatalogName(ProcesosCommon.LOG.getCatalogo())</span>
+<span class="fc" id="L108">        .withProcedureName(ProcesosCommon.LOG.getFn())</span>
+<span class="fc" id="L109">        .declareParameters(</span>
+          new SqlOutParameter(Constantes.PA_IOCERR, OracleTypes.NUMBER),
+          new SqlOutParameter(Constantes.PA_COERRMSG, OracleTypes.VARCHAR));
+
+<span class="fc" id="L113">      String jsonItems = new Gson().toJson(request);</span>
+
+<span class="fc" id="L115">      SqlParameterSource values = new MapSqlParameterSource()</span>
+<span class="fc" id="L116">        .addValue(Constantes.PA_JSONLOGVTEX, jsonItems, Types.CLOB)</span>
+<span class="fc" id="L117">        .addValue(Constantes.PA_USUARIOMODIF, Constantes.SCSELLCEN, Types.VARCHAR);</span>
+
+<span class="fc" id="L119">      Map&lt;String, Object&gt; responseDB = simpleJdbcCall.execute(values);</span>
+
+<span class="fc" id="L121">      infoProceso.setResponse(responseDB);</span>
+<span class="fc" id="L122">      infoProceso.setEnable(Proceso.FIN);</span>
+<span class="fc" id="L123">      infoProceso.setStatus(Estatus.SUCCESS);</span>
+
+<span class="fc" id="L125">      logger.debug(infoProceso);</span>
+
+<span class="fc" id="L127">      return null;</span>
+    }
+<span class="fc" id="L129">    catch (Exception e) {</span>
+<span class="fc" id="L130">      infoProceso.setStatus(Estatus.ERROR);</span>
+<span class="fc" id="L131">      infoProceso.setResponse(e);</span>
+
+<span class="fc" id="L133">      logger.debug(infoProceso);</span>
+<span class="fc" id="L134">      throw new Exceptions(e);</span>
+    }
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

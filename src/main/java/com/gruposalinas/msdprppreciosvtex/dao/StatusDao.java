@@ -9,11 +9,14 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class StatusDao {
 
-  @Autowired
-  private JdbcTemplate jdbcTemplate;
+  private final JdbcTemplate jdbcTemplate;
 
-  public String getStatus()
-  {
+  @Autowired
+  public StatusDao(JdbcTemplate jdbcTemplate) {
+    this.jdbcTemplate = jdbcTemplate;
+  }
+
+  public String getStatus() {
     return jdbcTemplate.queryForObject("SELECT DUMMY FROM DUAL", String.class);
   }
 }

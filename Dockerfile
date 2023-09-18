@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk16:jre-16.0.1_9-ubuntu as FINAL-CONTAINER
+FROM adoptopenjdk/openjdk16:jre-16.0.1_9-ubuntu AS FINAL-CONTAINER
 
 RUN apt-get update -y && apt-get upgrade -y \
  && apt-get clean \

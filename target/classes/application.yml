@@ -1,0 +1,27 @@
+---
+info:
+  app:
+    encoding: 'UTF-8'
+    java:
+      version: '17.0.8.1'
+    name: 'msdprppreciosvtex'
+    response: https://baz-developer.bancoazteca.com.mx/info#
+    version: '0.0.1'
+  api:
+    name: 'msdprppreciosvtex'
+    id: 100
+logging:
+  level:
+    org:
+      springframework: 'off'
+server:
+  port: 10443
+spring:
+  config:
+    activate:
+      on-profile: dev, qa, default
+  main:
+    banner-mode: 'off'
+  mvc:
+    servlet:
+      path: /msdprppreciosvtex/v1

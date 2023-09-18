@@ -9,21 +9,24 @@ import com.gruposalinas.msdprppreciosvtex.model.response.ResponseProductos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-import java.util.HashMap;
+import java.util.Map;
 
 @Service
 public class PreciosServiceImpl implements PreciosService {
-    @Autowired
-    private PreciosDao catalogoPedidoDao;
+  private final PreciosDao catalogoPedidoDao;
 
-    @Override
-    public ResponseProductos actualizaProductos(RequestPrecios request) throws Exceptions {
-        return catalogoPedidoDao.actualizaProductos(request);
-    }
+  @Autowired
+  public PreciosServiceImpl(PreciosDao catalogoPedidoDao) {
+    this.catalogoPedidoDao = catalogoPedidoDao;
+  }
 
-    @Override
-    public HashMap<String, Object> log(RequestLog request) throws Exceptions {
-        return catalogoPedidoDao.log(request);
-    }
+  @Override
+  public ResponseProductos actualizaProductos(RequestPrecios request) throws Exceptions {
+    return catalogoPedidoDao.actualizaProductos(request);
+  }
+
+  @Override
+  public Map<String, Object> log(RequestLog request) throws Exceptions {
+    return catalogoPedidoDao.log(request);
+  }
 }

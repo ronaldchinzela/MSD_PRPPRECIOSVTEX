@@ -18,17 +18,21 @@ import java.util.Map;
 @RequestMapping("/status")
 public class StatusController {
 
-    @Value("${info.app.version}")
-    private String appVersion;
+  @Value("${info.app.version}")
+  private String appVersion;
 
-    @Autowired
-    private Util util;
+  private final Util util;
 
-    @GetMapping
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseService getStatus() {
-        Map<String, String> status = Map.of("aplicacion", Constantes.NOMBRE_MSD, "appVersion", appVersion);
-        return new ResponseService(HttpStatus.OK, util.getCodigo(), Constantes.SUCCESS_OPERATION, util.getFolio(),
-                status);
-    }
+  @Autowired
+  public StatusController(Util util) {
+    this.util = util;
+  }
+
+  @GetMapping
+  @ResponseStatus(HttpStatus.OK)
+  public ResponseService getStatus() {
+    Map<String, String> status = Map.of("aplicacion", Constantes.NOMBRE_MSD, "appVersion", appVersion);
+    return new ResponseService(HttpStatus.OK, util.getCodigo(), Constantes.SUCCESS_OPERATION, util.getFolio(),
+      status);
+  }
 }
